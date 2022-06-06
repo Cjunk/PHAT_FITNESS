@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Cjunk/PHAT_FITNESS/issues"
   },
-  "homepage": "https://github.com/Cjunk/PHAT_FITNESS#readme"
+  "homepage": "https://github.com/Cjunk/PHAT_FITNESS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
