@@ -1,0 +1,15 @@
+{
+    "search.exclude": {
+        "**/.vscode": true
+    },
+    "search.useIgnoreFiles": false,
+    "scm.defaultViewMode": "list",
+    "npm.includeDirectories": [
+    
+    ],
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.defaultLanguage": "",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": false
+}
