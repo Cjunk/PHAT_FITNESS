@@ -36,6 +36,7 @@ CREATE TABLE partnerDetails (-- partnership details
     CONSTRAINT validate_user_pcode CHECK (companyPCode >=800 AND companyPCode <8000)
 );
 CREATE TABLE users ( -- All users that have access to Login
+    email TEXT UNIQUE,
     id SERIAL PRIMARY KEY,
     userType SMALLINT REFERENCES userTypes(typeID) NOT NULL,
     profileType SMALLINT REFERENCES profileType(id) NOT NULL,
@@ -48,7 +49,7 @@ CREATE TABLE users ( -- All users that have access to Login
     firstName VARCHAR(20)NOT NULL ,
     lastName VARCHAR(30),
     gender VARCHAR(2),
-    email TEXT NOT NULL ,
+
     mobile VARCHAR(20),
     otherPhone VARCHAR(20),
     dateJoined DATE NOT NULL ,
