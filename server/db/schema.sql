@@ -234,3 +234,18 @@ CREATE TABLE youtubeVideos (-- fitness videos found on Youtube
     videoDescription TEXT NOT NULL
 );
 
+
+--NUTRITION: DIET PLAN
+  breakfast, lunch , dinner, snacks, 
+
+
+
+-- CONSULTATION 
+-- GOALS TABLE 
+-- title , description, time frame, current(numbers)  goal (numbers) 
+    Tone up               tighten muscis  
+    Reduce body fat       Lower t he weight and body fat percentage  
+    increase muscle mass  
+
+-- Behaviours   DIET
+   theName Description   

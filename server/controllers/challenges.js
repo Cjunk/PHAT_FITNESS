@@ -12,8 +12,15 @@ const router = express.Router();
 const db = require("../db/db");
 // ********************************************************************************************************************
 
-
-
+router.get("/", (req, res) => {
+  //  Called on ever page refresh to check if the user is already logged in.
+  // console.log(req.session) //TODO: delete console.log
+  res.json({
+    name: req.session.name,
+    email: req.session.email,
+    spook:"sppok"
+  });
+});
 // ********************************************************************************************************************
 // INTERNAL FUNCTIONS
 function dbSelectQuery(theQuery, res) {
